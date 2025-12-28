@@ -1,0 +1,93 @@
+/* Component styles */
+
+/*
+    Source : https://github.com/anamoffial1/My-Portofolio.git
+    Developer : Anam Official
+    Telegram : t.me/PraiOfficial
+    
+    Chanel WhatsApp : https://whatsapp.com/channel/0029VbBF8o460eBemg300Z3H
+    Chanel Telegram : https://t.me/AnamchanelX 
+    
+[ MY SOCIAL MEDIA ]
+    Github: https://github.com/anamofficial1
+    Tiktok : https://tiktok.com/anamvx_
+    Instagram : https://instagram.com/azizulanam_
+    YouTube : https://youtube.com/@anamtrader    
+
+
+*/
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-image-wrapper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+}
+
+section {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
