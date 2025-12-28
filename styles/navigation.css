@@ -1,0 +1,126 @@
+/* Navigation styles */
+
+/*
+    Source : https://github.com/anamoffial1/My-Portofolio.git
+    Developer : Anam Official
+    Telegram : t.me/PraiOfficial
+    
+    Chanel WhatsApp : https://whatsapp.com/channel/0029VbBF8o460eBemg300Z3H
+    Chanel Telegram : https://t.me/AnamchanelX 
+    
+[ MY SOCIAL MEDIA ]
+    Github: https://github.com/anamofficial1
+    Tiktok : https://tiktok.com/anamvx_
+    Instagram : https://instagram.com/azizulanam_
+    YouTube : https://youtube.com/@anamtrader    
+
+
+*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #64ffda;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 6rem 1rem 1rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 900;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-links a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Social media links */
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #64ffda;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
