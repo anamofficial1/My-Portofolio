@@ -1,0 +1,49 @@
+/*
+    Source : https://github.com/anamoffial1/My-Portofolio.git
+    Developer : Anam Official
+    Telegram : t.me/PraiOfficial
+    
+    Chanel WhatsApp : https://whatsapp.com/channel/0029VbBF8o460eBemg300Z3H
+    Chanel Telegram : https://t.me/AnamchanelX 
+    
+[ MY SOCIAL MEDIA ]
+    Github: https://github.com/anamofficial1
+    Tiktok : https://tiktok.com/anamvx_
+    Instagram : https://instagram.com/azizulanam_
+    YouTube : https://youtube.com/@anamtrader    
+
+
+*/
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .profile-image-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
