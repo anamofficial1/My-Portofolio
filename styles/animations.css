@@ -1,0 +1,49 @@
+/*
+    Source : https://github.com/anamoffial1/My-Portofolio.git
+    Developer : Anam Official
+    Telegram : t.me/PraiOfficial
+    
+    Chanel WhatsApp : https://whatsapp.com/channel/0029VbBF8o460eBemg300Z3H
+    Chanel Telegram : https://t.me/AnamchanelX 
+    
+[ MY SOCIAL MEDIA ]
+    Github: https://github.com/anamofficial1
+    Tiktok : https://tiktok.com/anamvx_
+    Instagram : https://instagram.com/azizulanam_
+    YouTube : https://youtube.com/@anamtrader    
+
+
+*/
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.typing-text::after {
+    content: '|';
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
